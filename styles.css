@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 body {
-	/* position: relative; */
+	position: relative;
 }
 #center {
 	width: 200px;
@@ -14,5 +14,5 @@ body {
 	margin: auto;
 	position: relative;
 	top: 100px;
-	left: 10px;
+	left: 100px;
 }
