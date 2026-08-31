@@ -1,18 +1,25 @@
-/*  your css code here. If applicable */
 body {
 	position: relative;
+	height: 100vh;
+	margin: 0;
 }
+
 #center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 200px;
 	height: 200px;
 	background-color: lightblue;
+	border: 2px solid black;
+}
+
+#center-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	color: purple;
 	font-size: 20px;
-	text-align: center;
-	padding: 20px;
-	border: 2px solid black;
-	margin: auto;
-	position: relative;
-	top: 100px;
-	left: 100px;
 }
