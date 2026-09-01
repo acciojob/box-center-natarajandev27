@@ -1,7 +1,6 @@
 body {
-	position: relative;
-	height: 100vh;
-	margin: 0;
+  position: relative;
+  height: 100vh;
 }
 
 #center {
@@ -13,13 +12,11 @@ body {
 	height: 200px;
 	background-color: lightblue;
 	border: 2px solid black;
+	color: purple;
 }
-
 #center-text {
 	position: absolute;
-	top: 50%;
+    top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	color: purple;
-	font-size: 20px;
 }
